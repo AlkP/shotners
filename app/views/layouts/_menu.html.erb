@@ -1,0 +1,36 @@
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="container">
+
+      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+
+      <!-- Be sure to leave the brand out there if you want it shown -->
+      <a class="brand" href="/">Shotners</a>
+
+      <!-- Everything you want hidden at 940px or less, place within here -->
+      <div class="nav-collapse">
+        <br> <br>
+        <h2 class="text-warning text-center">You really difficult to remember long links?</h2>
+        <%= image_tag("shotner.jpg", :alt => "rss feed") %>
+        <h3 class="text-error text-right">We know how to help you !!!</h3>
+        <h3 class="text-success text-right">To create private link </h3>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<% if current_user %>
+  <a href="profile" class="btn btn-success btn-mini btn-block" type="button"><%= current_user.email %></a>
+  <a href="logout" class="btn btn-danger btn-mini btn-block" type="button">Log out</a>
+<% else %>
+  <a href="log_in" class="btn btn-primary btn-mini btn-block" type="button">Log in</a>
+  <a href="sign_up" class="btn btn-danger btn-mini btn-block" type="button">Sign up</a>
+<% end %>
+

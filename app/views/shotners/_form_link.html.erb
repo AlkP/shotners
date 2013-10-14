@@ -1,0 +1,25 @@
+
+<% if current_user %>
+  <%= form_for @shotner_new, :html => { :multipart => true } do |f| %>
+    <tr>
+      <td><br><br><%= f.check_box :public_link %></td>
+      <td>
+
+        <%= f.text_field :original_url %> URL <br>
+
+        <%= f.text_field :password_link %> password
+      </td>
+      <td><br><%= f.submit "Add new shotner" %></td>
+      <td></td>
+    </tr>
+  <% end %>
+<% else %>
+  <%= form_for @shotner_new, :html => { :multipart => true } do |f| %>
+    <tr>
+      <td></td>
+      <td><%= f.text_field :original_url %></td>
+      <td><%= f.submit "Add new shotner" %></td>
+      <td></td>
+    </tr>
+  <% end %>
+<% end %>

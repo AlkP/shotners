@@ -1,0 +1,16 @@
+  <tr class="success"><td></td><td><h3>my shotners</h3></td><td></td><td></td></tr>
+  <% @shotners_my.each do |shotner| %>
+    <tr>
+      <!--<td>< %= check_box("puppy", "good_dog", {}, true, false) %></td>-->
+      <td></td>
+      <td>
+        <% if shotner.original_url.size > 70 %>
+          <%= shotner.original_url.first(70) %> ....
+        <% else %>
+          <%= shotner.original_url %>
+        <% end %>
+      </td>
+      <td><%= @url %><%= shotner.shortened_url %></td>
+      <td><beautiful class="pull-right"><%= shotner.usage_count %></beautiful></td>
+    </tr>
+  <% end %>

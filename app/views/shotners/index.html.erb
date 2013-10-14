@@ -1,0 +1,49 @@
+
+<table class="table table-hover table-condensed table-striped">
+  <tr class="info">
+    <th></th>
+    <th>Original url</th>
+    <th>Shortened url</th>
+    <th>Count</th>
+  </tr>
+
+  <%= render 'shotners/form_link' %>
+
+  <% if current_user %>
+    <%= render 'layouts/user_grid' %>
+  <% end %>
+
+
+  <tr class="success"><td></td><td><h3>last shotners</h3></td><td></td><td></td></tr>
+  <% @shotners_last.each do |shotner| %>
+    <tr>
+      <td></td>
+      <td>
+        <% if shotner.original_url.size > 70 %>
+          <%= shotner.original_url.first(70) %> ....
+        <% else %>
+            <%= shotner.original_url %>
+        <% end %>
+      </td>
+      <td><%= @url %><%= shotner.shortened_url %></td>
+      <td><beautiful class="pull-right"><%= shotner.usage_count %></beautiful></td>
+    </tr>
+  <% end %>
+  <tr class="success"><td></td><td><h3>popular shotners</h3></td><td></td><td></td></tr>
+  <% @shotners_popular.each do |shotner| %>
+
+      <tr>
+        <td></td>
+        <td><% if shotner.original_url.size > 70 %>
+              <%= shotner.original_url.first(70) %> ....
+          <% else %>
+              <%= shotner.original_url %>
+          <% end %>
+        <td><%= @url %><%= shotner.shortened_url %></td>
+        <td><beautiful class="pull-right"><%= shotner.usage_count %></beautiful></td>
+      </tr>
+  <% end %>
+
+</table>
+
+<!--< %= render 'shotners/modal' %>-->
