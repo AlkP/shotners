@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 20131010104845) do
     t.integer  "user_id"
   end
 
-  add_index "shotners", ["user_id"], name: "index_shotners_on_user_id"
+  add_index "shotners", ["user_id"], name: "index_shotners_on_user_id", using: :btree
 
   create_table "users", force: true do |t|
     t.string   "email"

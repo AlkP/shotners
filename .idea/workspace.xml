@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="870dca20-33fd-4c5b-a1ca-2bcd9dce011a" name="Default" comment="" />
+    <list default="true" id="870dca20-33fd-4c5b-a1ca-2bcd9dce011a" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/shotnener_new.iml" afterPath="$PROJECT_DIR$/.idea/shotnener_new.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="shotnener_new.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/routes.rb" changelist="870dca20-33fd-4c5b-a1ca-2bcd9dce011a" time="1381402204600" ignored="false" />
@@ -15,11 +26,11 @@
     <file path="/user.rb" changelist="870dca20-33fd-4c5b-a1ca-2bcd9dce011a" time="1381402237828" ignored="false" />
     <file path="/users_controller.rb" changelist="870dca20-33fd-4c5b-a1ca-2bcd9dce011a" time="1381396453812" ignored="false" />
     <file path="/20131009154352_add_new_columns_to_users.rb" changelist="870dca20-33fd-4c5b-a1ca-2bcd9dce011a" time="1381333620795" ignored="false" />
-    <file path="/Gemfile" changelist="870dca20-33fd-4c5b-a1ca-2bcd9dce011a" time="1381494777766" ignored="false" />
+    <file path="/Gemfile" changelist="870dca20-33fd-4c5b-a1ca-2bcd9dce011a" time="1381750525038" ignored="false" />
     <file path="/_form_user.html.erb" changelist="870dca20-33fd-4c5b-a1ca-2bcd9dce011a" time="1381336097552" ignored="false" />
     <file path="/sessions_controller.rb" changelist="870dca20-33fd-4c5b-a1ca-2bcd9dce011a" time="1381407673614" ignored="false" />
     <file path="/application_controller.rb" changelist="870dca20-33fd-4c5b-a1ca-2bcd9dce011a" time="1381341339575" ignored="false" />
-    <file path="/Dummy.txt" changelist="870dca20-33fd-4c5b-a1ca-2bcd9dce011a" time="1381494796148" ignored="false" />
+    <file path="/Dummy.txt" changelist="870dca20-33fd-4c5b-a1ca-2bcd9dce011a" time="1381751507586" ignored="false" />
     <file path="/_user_grid.html.erb" changelist="870dca20-33fd-4c5b-a1ca-2bcd9dce011a" time="1381410008668" ignored="false" />
     <file path="/20131010104845_add_users_columns_to_shotners.rb" changelist="870dca20-33fd-4c5b-a1ca-2bcd9dce011a" time="1381407840108" ignored="false" />
     <file path="$PROJECT_DIR$/../pen_test/app/views/dashboard/index.html.erb" changelist="870dca20-33fd-4c5b-a1ca-2bcd9dce011a" time="1381426974074" ignored="false" />
@@ -30,8 +41,11 @@
     <file path="/_menu_user.html.erb" changelist="870dca20-33fd-4c5b-a1ca-2bcd9dce011a" time="1381492651347" ignored="false" />
     <file path="$PROJECT_DIR$/../pen_test/Gemfile" changelist="870dca20-33fd-4c5b-a1ca-2bcd9dce011a" time="1381499542820" ignored="false" />
     <file path="$PROJECT_DIR$/../pen_test/config/database.yml" changelist="870dca20-33fd-4c5b-a1ca-2bcd9dce011a" time="1381495168929" ignored="false" />
-    <file path="/database.yml" changelist="870dca20-33fd-4c5b-a1ca-2bcd9dce011a" time="1381495162964" ignored="false" />
+    <file path="/database.yml" changelist="870dca20-33fd-4c5b-a1ca-2bcd9dce011a" time="1381751080463" ignored="false" />
     <file path="$PROJECT_DIR$/../pen_test/.gitignore" changelist="870dca20-33fd-4c5b-a1ca-2bcd9dce011a" time="1381498837850" ignored="false" />
+    <file path="$PROJECT_DIR$/../sharedoc/Gemfile" changelist="870dca20-33fd-4c5b-a1ca-2bcd9dce011a" time="1381750772896" ignored="false" />
+    <file path="/Rakefile" changelist="870dca20-33fd-4c5b-a1ca-2bcd9dce011a" time="1381751198630" ignored="false" />
+    <file path="/production.rb" changelist="870dca20-33fd-4c5b-a1ca-2bcd9dce011a" time="1381751372727" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,10 +65,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="42" selection-start="393" selection-end="393" vertical-scroll-proportion="0.35123968">
+            <state line="17" column="42" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -63,16 +77,16 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="4" selection-start="299" selection-end="308" vertical-scroll-proportion="0.0">
+            <state line="10" column="30" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="20" column="41" selection-start="932" selection-end="932" vertical-scroll-proportion="0.41322315">
               <folding />
             </state>
           </provider>
@@ -85,13 +99,17 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/db/migrate/20131008153102_create_shotners.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_modal.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/shotners/create.js.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/shotners.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
@@ -104,6 +122,10 @@
         <option value="$PROJECT_DIR$/app/models/shotner.rb" />
         <option value="$PROJECT_DIR$/app/controllers/check_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/shotners/_form_link.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/Rakefile" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -113,7 +135,7 @@
     <option name="width" value="1442" />
     <option name="height" value="876" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -139,8 +161,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -155,17 +175,69 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="shotners" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="shotnener_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shotners" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shotnener_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shotners" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shotnener_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shotners" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="environments" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
   </component>
@@ -427,6 +499,23 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="870dca20-33fd-4c5b-a1ca-2bcd9dce011a" name="Default" comment="" />
@@ -436,11 +525,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="25" width="1442" height="876" extended-state="7" />
-    <editor active="true" />
+    <frame x="-1" y="25" width="1442" height="876" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.276901" sideWeight="0.6706507" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29411766" sideWeight="0.6706507" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -450,6 +539,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934928" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -519,33 +609,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/check/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sessions/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="560" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_flash.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="33" selection-start="474" selection-end="474" vertical-scroll-proportion="0.25641027" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="29" selection-start="1035" selection-end="1048" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_user_grid.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -553,70 +616,85 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/check/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="85" selection-start="286" selection-end="286" vertical-scroll-proportion="0.1985294">
-          <folding />
-        </state>
+        <state line="9" column="85" selection-start="286" selection-end="286" vertical-scroll-proportion="0.1985294" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/shotner.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="17" selection-start="578" selection-end="586" vertical-scroll-proportion="0.38352272">
-          <folding />
-        </state>
+        <state line="18" column="17" selection-start="578" selection-end="586" vertical-scroll-proportion="0.38352272" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/shotners_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="8" selection-start="1779" selection-end="1835" vertical-scroll-proportion="0.02170767">
-          <folding />
-        </state>
+        <state line="43" column="8" selection-start="1779" selection-end="1835" vertical-scroll-proportion="0.02170767" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_menu.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="32" selection-start="369" selection-end="369" vertical-scroll-proportion="0.22058824">
+        <state line="10" column="32" selection-start="369" selection-end="369" vertical-scroll-proportion="0.22058824" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/check_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="21" selection-start="658" selection-end="658" vertical-scroll-proportion="0.6198347" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shotners/_form_link.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="14" selection-start="482" selection-end="482" vertical-scroll-proportion="0.3846154" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shotners/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="27" selection-start="207" selection-end="207" vertical-scroll-proportion="0.1923077" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="42" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+    <entry file="file://$PROJECT_DIR$/README.rdoc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/boot.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="34" selection-start="257" selection-end="257" vertical-scroll-proportion="0.18828452">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="9" selection-start="301" selection-end="301" vertical-scroll-proportion="0.43933055">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="4" selection-start="299" selection-end="308" vertical-scroll-proportion="0.0">
+        <state line="10" column="30" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/check_controller.rb">
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="21" selection-start="658" selection-end="658" vertical-scroll-proportion="0.6198347">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shotners/_form_link.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="14" selection-start="482" selection-end="482" vertical-scroll-proportion="0.3846154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shotners/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="207" selection-end="207" vertical-scroll-proportion="0.1923077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="42" selection-start="393" selection-end="393" vertical-scroll-proportion="0.35123968">
+        <state line="20" column="41" selection-start="932" selection-end="932" vertical-scroll-proportion="0.41322315">
           <folding />
         </state>
       </provider>
