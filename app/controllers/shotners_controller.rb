@@ -59,6 +59,11 @@ class ShotnersController < ApplicationController
           if @url_to.public_link
             #redirect_to "#modal-container-258522"
             # Не залогинен в систему и ссылка является публичной  НУЖНО ДОБАВИТЬ ПРОВЕРКУ ПАРОЛЯ ВАЖНО!!!
+            if check_pass_for_url_shotners(@url_to.id, "")
+              Shotner.update(@url_to.id, :usage_count => @usage_count)
+              @url_to_link
+            end
+
             redirect_to new_check_path, flash: { password: @url_to.id }
             #Shotner.update(@url_to.id, :usage_count => @usage_count)
             #redirect_to @url_to_link
@@ -91,6 +96,22 @@ class ShotnersController < ApplicationController
 
   def list_shotners_my
     Shotner.index_my(current_user)
+  end
+
+  private
+
+  def check_pass_for_url_shotners(id,password)
+    @test = Shotner.url_to(id)
+    @test.each do |first|
+      @pass = first.password_link
+    end
+
+    if @pass == password
+      Shotner.update(id, :usage_count => @usage_count)
+      true
+    else
+      false
+    end
   end
   
 end

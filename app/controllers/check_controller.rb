@@ -10,7 +10,7 @@ class CheckController < ApplicationController
   def show
     @access = check_pass_for_url(params[:ids], params[:password])
     if @access
-      redirect_to  @access
+      redirect_to @access
     else
       redirect_to root_url
     end
